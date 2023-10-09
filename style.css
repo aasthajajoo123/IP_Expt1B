@@ -1,0 +1,61 @@
+/* Apply styles to the body */
+body {
+    color: rgba(20, 1, 3, 0.776);
+    background-color: rgb(243, 237, 211);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Center align the heading */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Style fieldsets */
+  fieldset {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Style labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style input fields and textareas */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea,
+  input[type="number"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Style the submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
